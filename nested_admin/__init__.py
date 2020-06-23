@@ -23,7 +23,7 @@ except pkg_resources.DistributionNotFound:
 # import mapping to objects in other modules
 all_by_module = {
     'nested_admin.forms': (
-        'SortableHiddenMixin'),
+        'SortableHiddenMixin',),
     'nested_admin.formsets': (
         'NestedInlineFormSet', 'NestedBaseGenericInlineFormSet'),
     'nested_admin.nested': (
